@@ -1,4 +1,4 @@
-node ('slave_aws') {
+node ('aws') {
     stage('Clonacion Repositorio') {
         git branch: 'master',
             credentialsId: 'githubssh',
